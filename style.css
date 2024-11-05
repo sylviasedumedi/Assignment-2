@@ -1,0 +1,68 @@
+/* Custom CSS */
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+  font-weight: bold;
+}
+.navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+}
+.navbar-brand span {
+  color: orange;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+/* .main-image {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  background: url("/img/nature.jpg") center/cover no-repeat;
+} */
+/* .main-image .overlay {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+  } */
+/* ADDED */
+/* Custom Styles */
+.section-title {
+  color: #ff5733;
+  font-weight: bold;
+}
+.recent-posts .card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.recent-posts .card-body {
+  position: relative;
+}
+.recent-posts .badge {
+  background-color: #00bfff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.recent-posts .heart-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: red;
+}
+.popular-posts img {
+  width: 100%;
+  height: auto;
+}
+.popular-posts .post-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.popular-posts .post-date {
+  font-size: 0.8rem;
+  color: gray;
+}

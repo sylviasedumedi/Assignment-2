@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sylviase's Blog</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="/style.css" rel="stylesheet" />
+    
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">Sylviase's<span>Blog</span></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#">My Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/fash1.jpg" class="d-block w-100" alt="fasion">
+        </div>
+        <div class="carousel-item">
+          <img src="/img/travel.jpg" class="d-block w-100" alt="travel">
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+<!-- Body -->
+
+<div class="container my-5">
+  <div class="row">
+      <!-- Recent Posts Section -->
+      <div class="col-lg-8">
+          <h3 class="section-title">RECENT POSTS</h3>
+          <div class="row recent-posts">
+              <!-- Post 1 -->
+              <div class="col-md-6 mb-4">
+                  <div class="card">
+                      <img src="/img/C-Language2.png" class="card-img-top" alt="C++">
+                      <div class="card-body">
+                          <span class="badge">asdsad</span>
+                          <h5 class="card-title">welel</h5>
+                          <p class="card-text text-muted">sadsasd...</p>
+                          <p class="card-text"><small class="text-muted">03 November 2024</small></p>
+                          <i class="fa fa-heart heart-icon"></i>
+                      </div>
+                  </div>
+              </div>
+              <!-- Post 2 -->
+              <div class="col-md-6 mb-4">
+                  <div class="card">
+                      <img src="/img/demo.png" class="card-img-top" alt="TUT">
+                      <div class="card-body">
+                          <span class="badge">dssdf</span>
+                          <h5 class="card-title">dfsdfsd</h5>
+                          <p class="card-text text-muted">sdfdfsdf...</p>
+                          <p class="card-text"><small class="text-muted">04 November 2024</small></p>
+                          <i class="fa fa-heart heart-icon"></i>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Popular Posts Section -->
+      <div class="col-lg-4">
+          <h3 class="section-title">POPULAR POSTS</h3>
+          <div class="popular-posts">
+              <!-- Popular Post 1 -->
+              <div class="media mb-3">
+                  <img src="/img/demo.png" class="mr-3" alt="TUT" style="width: 100px;">
+                  <div class="media-body">
+                      <h5 class="post-title">dfsdfsd</h5>
+                      <p class="post-date">04 November 2024</p>
+                  </div>
+              </div>
+              <!-- Popular Post 2 -->
+              <div class="media mb-3">
+                  <img src="/img/C-Language2.png" class="mr-3" alt="C++" style="width: 100px;">
+                  <div class="media-body">
+                      <h5 class="post-title">welel</h5>
+                      <p class="post-date">03 November 2024</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- End -->
+    
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
